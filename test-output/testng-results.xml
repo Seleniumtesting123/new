@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93646" started-at="2019-05-12T07:38:53Z" finished-at="2019-05-12T07:40:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93646" started-at="2019-05-12T07:38:53Z" finished-at="2019-05-12T07:40:27Z">
+      <class name="TestNG_Project.DataWithData">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_Project.DataWithData@67ae56]" name="beforeMethod" is-config="true" duration-ms="82245" started-at="2019-05-12T07:38:55Z" finished-at="2019-05-12T07:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Registration_data(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Project.DataWithData@67ae56]" name="Registration_data" duration-ms="9101" started-at="2019-05-12T07:40:18Z" data-provider="Authentication" finished-at="2019-05-12T07:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohdrahil2989@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_data -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG_Project.DataWithData@67ae56]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-12T07:40:27Z" finished-at="2019-05-12T07:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG_Project.DataWithData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
